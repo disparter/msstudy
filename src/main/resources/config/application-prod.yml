@@ -21,10 +21,9 @@ logging:
 
 eureka:
   instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: http://admin:${jhipster.registry.password}@localhost:8761/eureka/
+    hostname: msstudy.herokuapp.com
+    non-secure-port: 80
+    prefer-ip-address: false
 
 management:
   metrics:
