@@ -30,6 +30,8 @@
     "enableTranslation": false,
     "clientPackageManager": "npm",
     "skipClient": true,
-    "skipUserManagement": true
+    "skipUserManagement": true,
+    "herokuAppName": "msstudy",
+    "herokuDeployType": "git"
   }
 }
