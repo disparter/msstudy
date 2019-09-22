@@ -1,0 +1,11 @@
+version: '2'
+services:
+  msstudy-postgresql:
+    image: postgres:11.3
+    # volumes:
+    #     - ~/volumes/jhipster/msstudy/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=msstudy
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

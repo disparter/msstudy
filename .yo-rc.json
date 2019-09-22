@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.github.disparter.msstudy"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "microservice",
+    "baseName": "msstudy",
+    "packageName": "com.github.disparter.msstudy",
+    "packageFolder": "com/github/disparter/msstudy",
+    "serverPort": "8180",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTU2ZDE4OTcwNzFhODY1YThlODNlZmM2ZGJjZmEwZTM3NWZlMTlmMWI1NmNmMjFjNGIzYjU4YzUyMjUxN2YzMTM4OTMwMTcxOGZkNjNkZGFlNmQ4ZTllNzU2ZmFhYzljOTE4YjJiY2MxZmRjY2QxNjU1MDY0N2I5NGQyZmI1OTk=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
