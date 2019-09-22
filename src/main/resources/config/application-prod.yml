@@ -39,9 +39,9 @@ spring:
       enabled: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/msstudy
-    username: msstudy
-    password:
+    url: jdbc:postgresql://flmpiklayjpihi:6b535401addb5523a607cc6cecf701de74fe3f0a2bd82770798625246f78583c@ec2-54-235-181-55.compute-1.amazonaws.com:5432/d6jpi1e8tfu79m
+    username: flmpiklayjpihi
+    password: 6b535401addb5523a607cc6cecf701de74fe3f0a2bd82770798625246f78583c
     hikari:
       poolName: Hikari
       auto-commit: false
